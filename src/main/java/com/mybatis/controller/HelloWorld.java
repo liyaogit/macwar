@@ -1,13 +1,7 @@
 package com.mybatis.controller;
 
-import com.mybatis.service.IUserService;
-import com.mybatis.model.User;
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import com.util.VerifyCodeUtil;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
